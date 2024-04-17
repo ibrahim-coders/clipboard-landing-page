@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  max-width: 1440px;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f7f7;
+}
+
+/* ****************header section start*********** */
+.header-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.header-content :hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.header-content img {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 25px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+}
+.header-content p {
+  font-size: 14px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+  /* font-weight: 800; */
+}
+.header-btn {
+  margin: 20px;
+}
+.head-1 {
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #33dfdfde;
+  color: #f8f7f7;
+  transform: scale(1, 1);
+  box-shadow: 5px 5px;
+}
+.head-2 {
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #0e29d8de;
+  color: #f8f7f7;
+  transform: scale(1, 1);
+  box-shadow: 5px 5px;
+}
+.header-btn :hover {
+  background-color: #db1616;
+  color: #0e0202;
+}
+/* <!-- ****************header section End *********** --> */
+
+/* Kepp track of your snippets start******************** */
+.snippets-content {
+  margin-top: 40px;
+  text-align: center;
+}
+.snippets-content :hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.snippets-content h2 {
+  font-size: 25px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+}
+.snippets-content p {
+  font-size: 14px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Kepp track of your snippets end******************** */
+
+/* *********computer-detalis start ******* */
+.computer-detalis {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 40px;
+}
+.computer-detalis :hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.computer-img {
+  width: 50%;
+  height: auto;
+}
+.detalis-content {
+  text-align: start;
+  padding: 50px;
+}
+.detalis-content h3 {
+  font-size: 20px;
+  color: #0e0202;
+  padding: 8px;
+  font-weight: 600;
+}
+.detalis-content p {
+  font-size: 14px;
+  color: #0e0202;
+  padding: 8px;
+}
+/* *********computer-detalis End**************** */
+
+/* ****** clipboard content start *************  */
+.clipboard {
+  text-align: center;
+  margin-top: 30px;
+}
+.clipboard :hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.clipboard h3 {
+  font-size: 20px;
+  color: #0e0202;
+  padding: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+.clipboard p {
+  font-size: 14px;
+  color: #0e0202;
+  padding: 8px;
+  text-align: center;
+}
+.clipboard img {
+  max-width: 50%;
+  text-align: center;
+  padding-top: 20px;
+}
+/* ****** clipboard content End *************  */
+
+/* *************workflow-content start******  */
+.wrkflow :hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.wrkflow h3 {
+  font-size: 22px;
+  color: #0e0202;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrkflow p {
+  font-size: 14px;
+  color: #0e0202;
+  padding: 8px;
+  text-align: center;
+}
+.workflow-img img {
+  width: 50px;
+  height: 40px;
+}
+.workflow-img:hover {
+  padding: 10px;
+  background-color: #f5f5f1;
+}
+.img-content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
+}
+.icone-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.icone-img :hover {
+  background-color: #f5f5f1;
+  padding: 10px;
+  transform: scale(1, 1);
+}
+.icone-img img {
+  width: 100px;
+  height: 40px;
+}
+/* *************workflow-content End ****** */
+/* **********last-section
+************ */
+.last-section {
+  text-align: center;
+  margin: 30px auto;
+}
+.last-section:hover {
+  background-color: #f8f7f7;
+  padding: 10px;
+}
+.last-content h2 {
+  font-size: 25px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+}
+.last-content p {
+  font-size: 14px;
+  color: #0e0202;
+  text-align: center;
+  padding: 8px;
+}
+.last-btn {
+  margin: 20px;
+}
+.btn-1 {
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #33dfdfde;
+  color: #f8f7f7;
+  transform: scale(1, 1);
+  box-shadow: 5px 5px;
+}
+.btn-2 {
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #0e29d8de;
+  color: #f8f7f7;
+  transform: scale(1, 1);
+  box-shadow: 5px 5px;
+}
+.last-btn :hover {
+  background-color: #db1616;
+  color: #0e0202;
+}
+/* *******last-section End****** */
+
+.footer-section {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4dcdc;
+  padding: 20px 80px;
+}
+.contact-about {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.contact-about img {
+  width: 50px;
+  height: 50px;
+}
+.contact-about p {
+  font-size: 14px;
+  color: #0e0202;
+  padding: 8px;
+}
+.socail-icon {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  gap: 20px;
+}
+.socail-icon img {
+  width: 20px;
+  height: 20px;
+}
+.facebook:hover {
+  background-color: #5b5ba4;
+  transform: scale(1, 1);
+  border-radius: 10px;
+  padding: 5px;
+}
+@media (max-width: 800px) {
+  .computer-detalis {
+    flex-direction: column;
+    align-items: center;
+  }
+  .detalis-content {
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  .img-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .workflow-img {
+    padding: 10px;
+  }
+  .icone-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-section {
+    max-width: 650px;
+    background-color: #e4dcdc;
+  }
+}
+@media (max-width: 450px) {
+  .header-btn {
+    flex-direction: column;
+    text-align: center;
+  }
+  .last-btn {
+    flex-direction: column;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .contact-about {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .contact-about {
+    align-items: center;
+  }
+  .socail-icon {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+}
