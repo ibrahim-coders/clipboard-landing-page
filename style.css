@@ -15,20 +15,25 @@ body {
 }
 
 /* ****************header section start*********** */
+/* .header-img img {
+  position: relative; */
+
 .header-section {
   display: flex;
   justify-content: center;
   text-align: center;
   margin: auto;
 }
-.header-content :hover {
-  padding: 10px;
-  background-color: #f5f5f1;
+.header-section {
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
 }
-.header-content img {
+
+.header-img {
   width: 80px;
   height: 80px;
   text-align: center;
+  margin: 20% auto auto auto;
 }
 .header-content h2 {
   font-size: 25px;
