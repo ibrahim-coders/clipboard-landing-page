@@ -4,9 +4,7 @@
 
 **Project Details**
 
-A history of everything you copy
-Clipboard allows you to track and organize everything you copy. Instantly  
-access your clipboard on all your devices.
+ClipBoard is a single page job finding website built with html5& css3
 
 
 [View Website](https://clipboard-landing-page-eight-pi.vercel.app/)
