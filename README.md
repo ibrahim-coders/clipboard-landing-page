@@ -18,4 +18,4 @@ ClipBoard is a single page job finding website built with html5& css3
 -   CSS3
 -   AOS Library
 -   Responsive Grid
--   CSS Flebox
+-   CSS Flexbox
